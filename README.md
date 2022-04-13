@@ -14,7 +14,7 @@ They are:
 
 # Outline
 This AI only can solve 8-puzzle problem(3*3 Dimension)
-Each puzzle tile only can be distinguished its number on itself.
+Each puzzle tile only can be distinguished by its number on itself.
 The number 0 represent the empty tile in the puzzle.
 This AI uses the A* algorithm to search best solution.
 This AI's heuristics function use the Manhattan distance to calculate.
