@@ -11,6 +11,9 @@ Input the test times, first.
 Then, input a string like:[X X X X X X X X X]
 Parameter:
 X is the number between 0 ~ 8, those presens the sequence of a puzzle state.
+
+P.S.
+The cal_Manhattan_distance function reference:https://www.796t.com/post/N2l4NjY=.html
 """
 import copy
 def main():

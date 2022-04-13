@@ -25,17 +25,20 @@ from start state pass the n state to the goal state.
 ---------------------------------------------------------------------------------------
 the evaluated costs are calculated by using Manhattan Distance between-
 current state to the goal state, in the A* algorithm.
-"""
 
-"""
-The following Data Structure are for the 8-puzzle's Priority Queue.
-These Data Structure can store every state and it's cost.
+P.S.
+The cal_Manhattan_distance function reference:https://www.796t.com/post/N2l4NjY=.html
 """
 
 """
 Usage:input one sequence like:[X X X X X X X X X]
 Parameter:
 X is the number between 0 ~ 8, those presens the sequence of a puzzle state.
+"""
+
+"""
+The following Data Structure are for the 8-puzzle's Priority Queue.
+These Data Structure can store every state and it's cost.
 """
 import copy
 import sys
